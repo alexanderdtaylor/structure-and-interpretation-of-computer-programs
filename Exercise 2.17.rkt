@@ -1,4 +1,4 @@
-(define test-list (list 1 4 9 16 25))
+(define test-list (list 23 72 149 34))
 
 (define (list-length items)
   (if (null? items)
