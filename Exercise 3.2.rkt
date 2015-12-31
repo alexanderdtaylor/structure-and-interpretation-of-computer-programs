@@ -1,0 +1,21 @@
+(define (square x) (* x x))
+(define (cube x) (* x x x))
+
+(define (make-monitored f)
+  (let ((counter 0))
+    (define (mf input)
+      (cond ((eq? input 'how-many-calls?) counter)
+            ((eq? input 'reset-count) (begin (set! counter 0) counter))
+            (else (begin (set! counter (+ counter 1)) (f input)))
+       )
+     )
+   mf
+ )  
+)
+
+(define s (make-monitored square))
+(s 100)
+(s 200)
+(s 'how-many-calls?)
+(define t (make-monitored cube))
+(t 10)
