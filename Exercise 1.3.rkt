@@ -17,8 +17,7 @@
 			(sum-of-squares b c))))
 
 ; psedo-code for Exercise 1.3
-;
-; compare b and c			
+;   if a > b
 ;				then a,b are biggest
 ;				sum-of-squares(a b)
 ;			if c > b
@@ -26,7 +25,7 @@
 ;				sum-of-squares(a c)
 ;	
 ;	if a =< b
-;		;compare a and c
+;		
 ;			if a >= c
 ;				then a,b are biggest
 ;				sum-of-squares(a b)
