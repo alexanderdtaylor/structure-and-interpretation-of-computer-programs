@@ -13,43 +13,40 @@
 ; (A 1 10)
 
 (A 1 10)
- (cond: does y equal zero? No.
-		does x equal zero? No.
-		does y equal 1? print 2. 
-		else:
-			(A 0 (A 1 9))
-		...
-			(A 0 (A 0 (A 1 8)))
-		...
-			(A 0 (A 0 (A 0 (A 1 7))))
-		...
-			(A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (- 2 1))))))))))
-		...
-			1024, or 2^10 power.
+; (cond: does y equal zero? No.
+;		does x equal zero? No.
+;		does y equal 1? print 2. 
+;		else:
+;			(A 0 (A 1 9))
+;		...
+;			(A 0 (A 0 (A 1 8)))
+;		...
+;			(A 0 (A 0 (A 0 (A 1 7))))
+;		...
+;			(A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (A 0 (- 2 1))))))))))
+;		...
+;			1024, or 2^10 power.
 			
-; (A 2 4)
-		does y equal zero? No.
-		does x equal zero? No.
-		does y equal 1? print 2.
-		else:
-			(A 1 (A 2 3))
-			(A 1 (A 1 (A 2 2)))
-			(A 1 (A 1 (A 1 (A 2 1))))
-			(A 1 (A 1 (A 1 2)))
-			(A 1 (A 1 (A 0 (A 1 1))))
-			(A 1 (A 1 (A 0 2)))
-			(A 1 (A 1 4))
-			(A 1 (A 0 (A 1 3)))
-			
-			
-			
-			65536, or 2^16
-			
-; (A 3 3)
-		...
-			65536, or 2^16
-			
-		
+(A 2 4)
+;		does y equal zero? No.
+;		does x equal zero? No.
+;		does y equal 1? print 2.
+;		else:
+;			(A 1 (A 2 3))
+;			(A 1 (A 1 (A 2 2)))
+;			(A 1 (A 1 (A 1 (A 2 1))))
+;			(A 1 (A 1 (A 1 2)))
+;			(A 1 (A 1 (A 0 (A 1 1))))
+;			(A 1 (A 1 (A 0 2)))
+;			(A 1 (A 1 4))
+;			(A 1 (A 0 (A 1 3)))
+;		...
+;			
+;			65536, or 2^16			
+(A 3 3)
+;		...
+;			65536, or 2^16			
+
 ; Consider the following procedures, where A is the procedure defined above:
 
 ; (define (f n) (A 0 n))
