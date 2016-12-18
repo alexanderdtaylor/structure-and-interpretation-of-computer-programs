@@ -1,5 +1,6 @@
 ; Exercise 1.10.  The following procedure computes a 
 ; mathematical function called Ackermann's function.
+; The function is given by:
 
 (define (A x y)
   (cond ((= y 0) 0)
