@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to SICP
 
-You can use the [editor on GitHub](https://github.com/alexanderdtaylor/structure-and-interpretation-of-computer-programs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+>
+	The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three: 
+	1. Combining several simple ideas into one compound one, and thus all complex ideas are made. 
+	2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another
+	so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
+	4. The third is separating them from all other ideas that accompany them in their real existence: 
+	this is called abstraction, and thus all its general ideas are made.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	John Locke, An Essay Concerning Human Understanding (1690)
+>
 
-### Markdown
+# Goal
+This repository represents work on the Structure and Interpretation of Computer Programs, Second Edition.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexanderdtaylor/structure-and-interpretation-of-computer-programs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Solutions
+Enclosed are solutions to exercises and general thoughts.
